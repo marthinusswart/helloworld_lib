@@ -24,8 +24,7 @@ $(BINDIR)/$(TARGET): $(OBJECTS)
 	@$(LD) $@.so $(LDFLAGS) $(OBJECTS)
 	@echo "Linking complete!"
 
-$(OBJECTS): $(OBJDIR)/%.o : $(SRCDIR)/%.cpp
-	@echo "test"
+$(OBJECTS): $(OBJDIR)/%.o : $(SRCDIR)/%.cpp	
 	@$(CXX) $(CXXFLAGS) -c $< -o $@
 	@echo "Compiled "$<" successfully!"	
   
