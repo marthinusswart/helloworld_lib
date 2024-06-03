@@ -15,3 +15,8 @@ int printHelloWorld()
 
   return 0;
 }
+
+float addFloats(float f1, float f2)
+{
+  return f1 + f2;
+}

@@ -8,5 +8,6 @@
 using namespace std;
 
 int printHelloWorld();
+float addFloats(float f1, float f2);
 
 #endif
